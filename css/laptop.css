@@ -1,0 +1,387 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+body {
+  font-family: sans-serif;
+}
+.Div1 {
+  text-align: center;
+
+  color: white;
+  position: absolute;
+  top: 30%; /* Vị trí top 30% của ảnh */
+  right: 50%; /* Dịch về bên phải 50% */
+
+  /* Căn giữa theo chiều ngang và dọc */
+  transform: translate(50%, -30%);
+}
+.Div2 {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  font-size: 25px;
+  justify-content: center;
+}
+.Div2 a {
+  /* border: solid 1px rgb(129, 128, 128); */
+  text-decoration: none;
+  color: black;
+  padding: 10px 5px;
+  margin: 30px 0;
+}
+.Div2 a:hover {
+  background-color: rgb(238, 234, 227);
+}
+i {
+  color: blue;
+}
+.Div3 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  background-color: rgb(216, 215, 213);
+  height: 50%;
+}
+#target {
+  padding: 50px 50px 0 100px;
+}
+#info {
+  padding: 50px 0 0 100px;
+}
+.section:hover {
+  background-color: rgb(238, 234, 227);
+}
+h1 {
+  padding-bottom: 10px;
+}
+
+.td1 {
+  font-style: italic;
+}
+#HT {
+  background-color: blue;
+  color: white;
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+
+.section-title4 {
+  justify-self: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.section4 i {
+  justify-self: center;
+  align-self: center;
+
+  font-size: 40px;
+}
+.section-content4 {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  /* padding-top: 35px; */
+}
+.section-content5 {
+  display: flex;
+  align-content: center;
+  justify-content: start;
+}
+/* .section-content50{
+  padding-top: 35px;
+} */
+
+.section4 {
+  line-height: 2;
+
+  /* box-sizing: border-box; */
+}
+.Div455 {
+  height: 600px;
+}
+.Div45 {
+  padding: 30px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 30px;
+}
+.section4 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 10% 10% 80%;
+  border: solid 1px gray;
+  padding: 10px 10px 50px 10px;
+}
+.section5 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 10% 10% 80%;
+  border: solid 1px gray;
+  padding: 10px 10px 50px 10px;
+}
+#skill {
+  padding-bottom: 100px;
+}
+.section-title5 {
+  justify-self: center;
+  align-items: center;
+}
+.section5 i {
+  justify-self: center;
+  align-self: center;
+  font-size: 30px;
+}
+
+.Div52 i {
+  border: 2px solid green;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.Div52 p {
+  padding: 10px 0;
+}
+.Div51 {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  display: flex;
+  align-content: start;
+  justify-content: space-around;
+}
+
+.Div52 {
+  padding: 20px;
+  align-items: center;
+}
+.Div53 {
+  grid-column: 1/3;
+  grid-row: 3/4;
+}
+.Div54 {
+  grid-column: 1/3;
+  grid-row: 3/4;
+}
+#Div521 {
+  padding: 30px 0 40px 20px;
+}
+.Span1 {
+  background: #199cdb;
+  display: inline-block;
+  height: 4px;
+  margin-right: 10px;
+  width: 45px;
+}
+.Span2 {
+  background: #979c9e;
+  display: inline-block;
+  height: 4px;
+  margin-right: 10px;
+  width: 45px;
+}
+.Div6 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 20% 40% 40%;
+  box-sizing: border-box;
+  padding: 0 0 0 100px;
+  background-color: rgb(252, 246, 237);
+}
+.Div6 h1 {
+  grid-area: 1/1/2/3;
+}
+#Div611 {
+  grid-area: 2/1/3/2;
+  margin-bottom: 50px;
+  border-right: solid 2px blue;
+}
+#Div612 {
+  grid-area: 2/2/3/3;
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+#Div613 {
+  grid-area: 3/1/4/3;
+  border-top: solid 1px blue;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.Div61 img {
+  width: 300px;
+  height: 200px;
+  padding-right: 20px;
+}
+.Div61 h3 {
+  font-weight: normal;
+}
+.Div61 h4 {
+  font-weight: normal;
+  color: gray;
+}
+.Div61 {
+  display: block;
+  padding-bottom: 50px;
+}
+
+.Div70 {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  gap: 30px;
+  padding: 0 0 30px 0;
+  justify-content: center;
+  font-size: 15px;
+}
+.Div71 {
+  padding-bottom: 30px;
+  border: solid 1px grey;
+}
+.Div7 h1 {
+  padding-left: 100px;
+}
+.Div71 h3 {
+  border-top: solid 1px grey;
+  border-bottom: solid 1px grey;
+  padding: 25px;
+}
+.Div71 img {
+  width: 100%;
+  height: 500px;
+}
+
+.Div711 h4 {
+  padding: 10px 5px;
+}
+.Div712 {
+  background-color: blue;
+  border-radius: 30%;
+  color: white;
+  margin-left: 10px;
+}
+.Div711 i {
+  font-size: 30px;
+  padding: 20px 20px 0 20px;
+  color: grey;
+}
+.Div71 tr {
+  position: relative;
+}
+.Div71 th {
+  position: absolute;
+  text-align: start;
+  width: 30%;
+  top: 0;
+  left: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-top: solid 1px grey;
+}
+.Div71 td {
+  width: 70%;
+  padding-top: 10px;
+  line-height: 1.5;
+  padding-bottom: 20px;
+  border-top: solid 1px grey;
+}
+.Div8 {
+  display: flex;
+  justify-content: center;
+}
+.Div8 a {
+  display: flex;
+  text-decoration: none;
+}
+.Div8 i {
+  font-size: 30px;
+}
+.Div8 p {
+  padding-right: 30px;
+}
+
+.Div2 a {
+  display: flex;
+}
+/* .Div2 a i {
+  padding-top: 25px;
+} */
+.DivImg {
+  width: 250px;
+}
+.Div0 {
+  position: relative;
+}
+
+.Anh2 {
+  position: absolute;
+  bottom: -30%;
+  left: 42%;
+  width: 16%;
+  height: 200px;
+  border: solid 10px white;
+  border-radius: 50%;
+}
+.Div714 {
+  display: flex;
+}
+.Div714 h4 {
+  font-size: 15px;
+}
+.Div713 {
+  display: block;
+}
+.Div711 {
+  display: block;
+}
+
+.Div711 h4 {
+  width: 80px;
+  padding-left: 20px;
+  height: 40px;
+}
+
+.Div70 {
+  gap: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* #Button11 {
+  display: none;
+} */
+.Button1 {
+  display: none !important;
+  text-align: start;
+  justify-content: start;
+  width: 150px;
+  padding: 0 5px;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 20px;
+  background-color: yellow;
+
+  height: 70px;
+}
+
+/* .td2 {
+  padding-bottom: 100px;
+} */
+.section4:hover .Button1 {
+  display: block !important; /* Hiện nút khi hover vào khu vực */
+}
+.section5:hover .Button1 {
+  display: block !important; /* Hiện nút khi hover vào khu vực */
+}
+.Button1 i {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.height0 {
+  height: 250px;
+  padding-top: 30px;
+}

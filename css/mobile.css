@@ -1,0 +1,60 @@
+/* Media query cho các màn hình nhỏ hơn (smartphones) */
+@media (max-width: 576px) {
+  * {
+    box-sizing: border-box;
+  }
+  /* .Div2 a {
+    display: block;
+  } */
+  .Anh2 {
+    display: none;
+  }
+  .Div2 {
+    grid-template-columns: 90%;
+
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .Div2 a {
+    margin: 0;
+  }
+
+  #PSo3 {
+    display: none;
+  }
+  #target {
+    padding: 50px 10px 10px 20px;
+  }
+  #info {
+    padding: 50px 0 0 10px;
+  }
+  .Div3 {
+    grid-template-columns: 90%;
+  }
+  .Div45 {
+    grid-template-columns: 90%;
+  }
+  .Div6 {
+    grid-template-rows: 10% 30% 30% 30%;
+    padding: 0 0 0 10px;
+  }
+  #Div611 {
+    grid-area: 2 / 1 / 3 / 3;
+    border-right: none;
+  }
+  #Div612 {
+    grid-area: 3 / 1 / 4 / 3;
+    border-top: solid 1px blue;
+    padding-top: 30px;
+    padding-left: 80px;
+  }
+  #Div613 {
+    grid-area: 4 / 1 / 5 / 3;
+  }
+  .Div61 {
+    padding: 0 0 0 80px;
+  }
+  .Div70 {
+    grid-template-columns: 90%;
+  }
+}

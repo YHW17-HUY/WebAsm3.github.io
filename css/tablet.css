@@ -1,0 +1,42 @@
+/* Media query cho màn hình máy tính bảng */
+@media (min-width: 577px) and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+  #target {
+    padding: 50px 50px 0 30px;
+  }
+  #info {
+    padding: 50px 0 0 30px;
+  }
+  .Div45 {
+    grid-template-columns: 45% 45%;
+  }
+  .Div61 {
+    display: block;
+    padding-bottom: 100px;
+  }
+  .Div6 {
+    padding-left: 0;
+  }
+  .Div61 a {
+    width: 190px;
+  }
+  .Div61 h4 {
+    font-size: 18px;
+  }
+  .Div70 {
+    gap: 10px;
+  }
+  .Div71 th {
+    padding-left: 3px;
+    padding-right: 20px;
+    font-size: 12px;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    width: 35%;
+  }
+  .Div713 {
+    display: block;
+  }
+}
